@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.files = Dir["README.md", "LICENSE", "lib/global_phone/database_generator.rb"]
   s.executables = ["global_phone_dbgen"]
 
-  s.add_dependency "nokogiri", "~> 1.5"
+  s.add_dependency "nokogiri", "~> 1.8"
 
   s.authors = ["Sam Stephenson"]
   s.email = ["sstephenson@gmail.com"]
